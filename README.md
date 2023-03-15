@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 cd my-folder
 
-git clone [repo-link](https://...)
+git clone [repo-link](https://github.com/Kwaku28/architectural-summit.git)
 
 <!-- AUTHORS -->
 
