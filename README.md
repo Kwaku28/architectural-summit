@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Architectural-Summit](https://...)
+- [Architectural-Summit](https://kwaku28.github.io/architectural-summit/)
 
 <!-- GETTING STARTED -->
 
