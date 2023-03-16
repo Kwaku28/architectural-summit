@@ -67,6 +67,13 @@ header {
   border-bottom: 1px solid #272a31;
 }
 
+.logo-about a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+}
+
 .nav-links li a {
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -284,6 +291,10 @@ p {
   background-size: 80px 80px;
 }
 
+img {
+  width: 55px;
+}
+
 .faceshot img {
   width: 125px;
   height: 125px;
@@ -306,6 +317,7 @@ p {
 .title {
   font-family: "Lato", sans-serif;
   color: #ec5242;
+  font-style: italic;
 }
 
 .experience {
@@ -315,7 +327,7 @@ p {
   color: #8d8e8f;
 }
 
-.toggle {
+.more {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -329,15 +341,15 @@ p {
   font-size: 22px;
 }
 
-/* .toggle.active {
+.more.active {
   display: none;
 }
 
-.toggle1 {
+.less {
   display: none;
 }
 
-.toggle1.active {
+.less.active {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -349,7 +361,7 @@ p {
   border: 1px solid #dbdbdb;
   color: #272a31;
   font-size: 22px;
-} */
+}
 
 .about {
   display: flex;
@@ -448,7 +460,8 @@ p {
   padding-left: 5px;
   padding-right: 5px;
   mix-blend-mode: multiply;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(255, 28, 28, 0.52),
       rgba(255, 28, 28, 0.52)
@@ -468,7 +481,8 @@ p {
   padding-left: 5px;
   padding-right: 5px;
   mix-blend-mode: multiply;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(255, 28, 28, 0.52),
       rgba(255, 28, 28, 0.52)
@@ -489,24 +503,67 @@ p {
   color: #fff;
 }
 
-footer {
+.sponsors {
+  display: none;
+}
+
+.foot {
+  display: none;
+}
+
+.sponsors-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #272a31;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.sponsors-about h2 {
+  color: #d3d3d3;
+  margin-bottom: 10px;
+}
+
+.bronze-about {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding-top: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.bronze-about li {
+  display: flex;
+  background: #474747;
+  width: 100%;
+}
+
+.bronze-about li img {
+  width: 100%;
+}
+
+.foot-about {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
-  background: #272a31;
+  height: auto;
   gap: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+  padding-top: 30px;
 }
 
-footer .logo {
-  display: contents;
+.logo-about {
   display: flex;
   width: 180px;
   align-items: center;
 }
 
-footer .logo a img {
-  width: 55px;
+.copyright-about {
+  color: #272a31;
+  font-family: "Lato", sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -527,6 +584,12 @@ footer .logo a img {
 
   .nav-links2 li {
     list-style: none;
+  }
+
+  .bronze li {
+    display: flex;
+    background: #474747;
+    width: 100%;
   }
 
   .social li:hover {
@@ -659,6 +722,10 @@ footer .logo a img {
     gap: 10px;
   }
 
+  .guest.active {
+    display: flex;
+  }
+
   .faceshot {
     background-image: url(../Images/black-white.png);
     background-repeat: no-repeat;
@@ -681,13 +748,19 @@ footer .logo a img {
   }
 
   .name {
-    font-size: 22px;
+    font-size: 25px;
     font-family: "Lato", sans-serif;
   }
 
   .title {
     font-family: "Lato", sans-serif;
     color: #ec5242;
+    font-style: italic;
+  }
+
+  .line-secondary {
+    border: 1px solid #ec5242;
+    width: 10px;
   }
 
   .experience {
@@ -697,7 +770,15 @@ footer .logo a img {
     color: #8d8e8f;
   }
 
-  .toggle {
+  .less {
+    display: none;
+  }
+
+  .less.active {
+    display: none;
+  }
+
+  .more {
     display: none;
   }
 
@@ -802,7 +883,8 @@ footer .logo a img {
     padding-left: 35px;
     padding-right: 35px;
     mix-blend-mode: multiply;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to bottom,
         rgba(255, 28, 28, 0.52),
         rgba(255, 28, 28, 0.52)
@@ -822,7 +904,8 @@ footer .logo a img {
     padding-left: 35px;
     padding-right: 35px;
     mix-blend-mode: multiply;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to bottom,
         rgba(255, 28, 28, 0.52),
         rgba(255, 28, 28, 0.52)
@@ -845,10 +928,70 @@ footer .logo a img {
 
   footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: auto;
+    gap: 50px;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #272a31;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .sponsors-about {
+    display: none;
+  }
+
+  .sponsors h2 {
+    color: #d3d3d3;
+    margin-bottom: 10px;
+  }
+
+  .bronze {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding-top: 50px;
+  }
+
+  .bronze li img {
+    width: 100%;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
     gap: 200px;
+    padding-bottom: 50px;
+  }
+
+  .foot-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 200px;
+    padding-bottom: 30px;
+    background: #272a31;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .copyright-about {
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+  }
+
+  .copyright {
+    color: #272a31;
+    font-family: "Lato", sans-serif;
   }
 }
