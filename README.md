@@ -7,7 +7,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -125,4 +124,3 @@ Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07
 
 This project is [MIT](https://github.com/Kwaku28/architectural-summit/blob/main/LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
