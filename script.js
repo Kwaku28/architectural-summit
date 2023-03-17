@@ -73,7 +73,10 @@ const loadGuests = () => {
 
     li.innerHTML = `
     <div class="faceshot">
-      <img src="${guest.faceshot}" alt="headshot of ${guest.speakerName}">
+      <img
+        src="${guest.faceshot}"
+        alt="headshot of ${guest.speakerName}"
+      />
     </div>
     <div class="resume">
       <h4 class="name">${guest.speakerName}</h4>
