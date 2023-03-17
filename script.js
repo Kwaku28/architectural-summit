@@ -78,7 +78,7 @@ const loadGuests = () => {
     <div class="resume">
       <h4 class="name">${guest.speakerName}</h4>
       <h5 class="title">${guest.title}</h5>
-      <span class="line-secondary></span>
+      <span class="line-secondary"></span>
       <p class="experience">${guest.experience}</p>
     </div>
     `;
