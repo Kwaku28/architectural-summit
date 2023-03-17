@@ -113,6 +113,8 @@ If you like this project show your love by leaving a comment
 
 I would like to thank all Micronauts for their support
 
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
