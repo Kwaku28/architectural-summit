@@ -6,7 +6,7 @@ vectors.addEventListener('click', () => {
   navLink.classList.toggle('active');
 });
 
-document.querySelectorAll('ul.nav-links > li').forEach((n) => n.addEventListener('click', () => {
+document.querySelectorAll('ul.nav-links li').forEach((n) => n.addEventListener('click', () => {
   vectors.classList.remove('active');
   navLink.classList.remove('active');
 }));
@@ -37,14 +37,14 @@ const guests = [
     id: '4',
     speakerName: 'Amer Mneimneh',
     title: 'Vice President, Urbanism + Planning, Middle East & Africa | AECOM Middle East',
-    experience: 'Strategic planner and urban designer with a background in architecture. He has more than 20 years’ experience gained in the Middle East and his portfolio boasts a range of award-winning, high-profile developments.',
+    experience: 'Strategic planner and urban designer with a background in architecture. He has more than 20 years experience gained in the Middle East and his portfolio boasts a range of award-winning, high-profile developments.',
     faceshot: './Images/Amer.png',
   },
   {
     id: '5',
     speakerName: 'Naser Raed Fakhouri',
     title: 'Architect | Bainona Engineering Consultancy',
-    experience: 'With a Bachelor of Architecture degree from the American University of Sharjah. Fakhouri’s work attempts to bridge the gap between architecture, locality, context, and vernacularity.',
+    experience: 'With a Bachelor of Architecture degree from the American University of Sharjah. Fakhouri work attempts to bridge the gap between architecture, locality, context, and vernacularity.',
     faceshot: './Images/Naser.png',
   },
   {
