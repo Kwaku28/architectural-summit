@@ -57,6 +57,10 @@
 
 - [Architectural-Summit](https://kwaku28.github.io/architectural-summit/)
 
+## 🚀 Video Presentation <a name="video-presentation"></a>
+
+- [Loom video](https://www.loom.com/share/4cdfdf9375f54de1a96bdc3ea8a95420)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
