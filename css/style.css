@@ -220,6 +220,11 @@ h2 {
   filter: drop-shadow(2px 2px 2px #0c0c0c) contrast(200%);
 }
 
+.bi {
+  font-size: 40px;
+  color: #d3d3d3;
+}
+
 h3 {
   font-family: "Lato", sans-serif;
   font-size: 16px;
