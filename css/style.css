@@ -74,6 +74,14 @@ header {
   font-family: "Lato", sans-serif;
 }
 
+.logo-location a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: #272a31;
+  text-align: start;
+}
+
 .nav-links li a {
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -150,7 +158,7 @@ footer .logo a {
   height: 80vh;
   width: 100%;
   gap: 10px;
-  background-image: url(../Images/arch6.jpg);
+  background-image: url(../Images/arch2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -159,7 +167,7 @@ footer .logo a {
 .place {
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  color: #272a31;
+  color: #fff;
 }
 
 h1 {
@@ -170,10 +178,23 @@ h1 {
   padding-bottom: 6px;
 }
 
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+
+.home p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  width: 75%;
+}
+
 .date {
   font-family: "Lato", sans-serif;
   font-size: 22px;
-  color: #ec5242;
+  color: #fff;
 }
 
 .program {
@@ -229,12 +250,6 @@ h3 {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   color: #ec5242;
-}
-
-p {
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  color: #d3d3d3;
 }
 
 .button {
@@ -373,10 +388,12 @@ img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 90vh;
+  height: auto;
   width: 100%;
+  gap: 30px;
   padding-left: 24px;
   padding-right: 24px;
+  border-bottom: 1px solid #c7c7c7;
 }
 
 .about-heading {
@@ -392,16 +409,24 @@ img {
   color: #272a31;
 }
 
+.contact {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #272a31;
+  padding-bottom: 20px;
+}
+
 .location {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 70vh;
+  height: auto;
   width: 100%;
   padding-left: 24px;
   padding-right: 24px;
+  border-bottom: 1px solid #c7c7c7;
 }
 
 .location-heading {
@@ -418,16 +443,27 @@ img {
   padding-top: 20px;
 }
 
+.logo-location {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-location img {
+  width: 100px;
+}
+
 .past-summit {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  height: 80vh;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 70px;
+  height: auto;
+  padding: 20px 24px 70px 24px;
+  gap: 20px;
 }
 
 .summit {
@@ -449,8 +485,8 @@ img {
 
 .past-summit-container {
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 50px;
+  grid-template-columns: auto;
+  gap: 30px;
 }
 
 .past-summit-card1 {
@@ -575,7 +611,7 @@ img {
   .social {
     display: flex;
     justify-content: end;
-    gap: 50px;
+    gap: 20px;
     padding-right: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -610,8 +646,8 @@ img {
   }
 
   .head {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .nav-links {
@@ -621,7 +657,7 @@ img {
   .nav-links2 {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
   }
 
   .logo a {
@@ -637,6 +673,14 @@ img {
     font-weight: 400;
     font-size: 18px;
     text-decoration: underline;
+  }
+
+  .logo-location a {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    color: #272a31;
+    text-align: start;
   }
 
   .nav-links2 li a {
@@ -673,15 +717,28 @@ img {
   }
 
   .home {
+    padding-top: 60px;
     padding-left: 100px;
     padding-right: 100px;
     height: 100vh;
+    gap: 50px;
   }
 
   h1 {
     font-size: 60px;
     line-height: 66px;
-    border-bottom: 5px solid #ec5242;
+    width: 70%;
+  }
+
+  .home p {
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    color: #fff;
+    width: 50%;
+  }
+
+  .date {
+    font-size: 30px;
   }
 
   .container1 {
@@ -792,14 +849,17 @@ img {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    height: 100vh;
+    height: auto;
     width: 100%;
+    gap: 70px;
     padding-left: 200px;
     padding-right: 200px;
+    border-bottom: 1px solid #c7c7c7;
   }
 
   .about-heading {
     border-bottom: none;
+    width: 100%;
   }
 
   .about-paragraph {
@@ -811,16 +871,23 @@ img {
     color: #272a31;
   }
 
+  .contact {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #272a31;
+  }
+
   .location {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 80vh;
+    height: auto;
     width: 100%;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 50px;
   }
 
   .location-heading {
@@ -834,11 +901,21 @@ img {
     font-family: "Lato", sans-serif;
     font-size: 22px;
     line-height: 44px;
-    padding-top: 20px;
   }
 
   .location-paragraph span {
     font-size: 40px;
+  }
+
+  .logo-location {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .logo-location img {
+    width: 100px;
   }
 
   .past-summit {
