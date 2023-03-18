@@ -53,7 +53,7 @@ const guests = [
     title: 'Director | RSP',
     experience: 'Over 17 years of professional experience in Asia, Australia, Middle East and Europe. His predilection with architecture is one that exerts a comprehensive knowledge base spanning from conceptual design through to project delivery.',
     faceshot: './Images/Ralf.png',
-  }
+  },
 ];
 
 const openMore = document.querySelector('.more');
