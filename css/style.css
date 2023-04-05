@@ -158,10 +158,19 @@ footer .logo a {
   height: 80vh;
   width: 100%;
   gap: 10px;
-  background-image: url(../Images/arch2.jpg);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(39, 39, 39, 0.52),
+    rgba(39, 39, 39, 0.52)
+  ),url(../Images/museum-Dubai.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+}
+
+aside {
+  font-size: 35px;
+  color: #ec5242;
 }
 
 .place {
@@ -187,7 +196,7 @@ p {
 .home p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  color: #fff;
+  color: #d3d3d3;
   width: 75%;
 }
 
@@ -721,7 +730,7 @@ img {
     padding-left: 100px;
     padding-right: 100px;
     height: 100vh;
-    gap: 50px;
+    /* gap: 50px; */
   }
 
   h1 {
@@ -855,6 +864,7 @@ img {
     padding-left: 200px;
     padding-right: 200px;
     border-bottom: 1px solid #c7c7c7;
+    padding-top: 100px;
   }
 
   .about-heading {
